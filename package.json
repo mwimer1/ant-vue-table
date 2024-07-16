@@ -2,7 +2,7 @@
   "name": "my-weweb-table",
   "version": "0.1.0",
   "description": "A simple table component for WeWeb",
-  "main": "MyTable.vue",
+  "main": "MyTableComponent.vue",
   "scripts": {
     "build": "weweb build",
     "serve": "weweb serve"
