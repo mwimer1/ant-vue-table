@@ -1,0 +1,20 @@
+{
+  "name": "my-weweb-table",
+  "version": "0.1.0",
+  "description": "A simple table component for WeWeb",
+  "main": "MyTable.vue",
+  "scripts": {
+    "build": "weweb build",
+    "serve": "weweb serve"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "eslint": "^6.7.2"
+  }
+}
