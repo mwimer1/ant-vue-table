@@ -1,20 +1,23 @@
 {
-  "name": "my-weweb-table",
-  "version": "0.1.0",
-  "description": "A simple table component for WeWeb",
-  "main": "MyTableComponent.vue",
+  "name": "my-table-component",
+  "version": "1.0.0",
   "scripts": {
-    "build": "weweb build",
-    "serve": "weweb serve"
+    "serve": "vue-cli-service serve",     // Script to run the development server
+    "build": "vue-cli-service build",     // Script to build the component for production
+    "lint": "vue-cli-service lint",       // Script to lint the project files
+    "weweb:build": "weweb build",         // Script specific for building in WeWeb
+    "weweb:serve": "weweb serve"          // Script specific for serving in WeWeb
   },
-  "license": "MIT",
   "dependencies": {
-    "vue": "^3.0.0"
+    "vue": "^3.2.0",                      // Vue framework version
+    "ant-design-vue": "^2.1.3"             // Example dependency, adjust as needed
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "eslint": "^6.7.2"
-  }
+    "@vue/cli-service": "^5.0.0",         // Vue CLI service for build and serve commands
+    "typescript": "^4.0.5"                // Example dev dependency, adjust as needed
+  },
+  "browserslist": [
+    "> 0.2%",
+    "not dead"
+  ]
 }
